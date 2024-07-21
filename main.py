@@ -8,7 +8,7 @@ def main():
     manager = VehicleManager()
 
     # Create some vehicles
-    car = Car("Honda", "City", 2005, 4)
+    car = Car("Honda","City", 1996, 4)
     motorbike = Motorbike("Suzuki", "Hayabusa", 2007, True)
 
     # Add vehicles to the manager

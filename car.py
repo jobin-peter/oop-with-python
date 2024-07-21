@@ -1,8 +1,8 @@
 from vehicle import Vehicle
 
 class Car(Vehicle):
-    def __init__(self, model, make, year,num_doors) -> None:
-        super().__init__(model, make, year)  # Super function is used with __init__() method to initialize the attributes of parent class
+    def __init__(self, make, model, year,num_doors) -> None:
+        super().__init__(make, model, year)  # Super function is used with __init__() method to initialize the attributes of parent class
         self.__num_doors = num_doors
     
     def get_num_doors(self):
